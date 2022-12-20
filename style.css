@@ -1,0 +1,21 @@
+body {
+  font-family: Monospace, sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 38px;
+}
+
+strong {
+  font-size: 22px;
+}
+
+article > p {
+  font-size: 18px;
+}
+
+
+h1, footer, #intro {
+  text-align: center;
+}
