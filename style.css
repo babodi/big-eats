@@ -1,5 +1,7 @@
-body {
+body, a {
   font-family: Monospace, sans-serif;
+  color: white;
+  background-color: #241F31;
 }
 
 h1 {
@@ -7,14 +9,10 @@ h1 {
   font-size: 40px;
 }
 
-.big {
-  font-size: 28px;
-}
-
 strong {
   font-size: 22px;
   color: white;
-  background-color: black;
+  background-color: #3D3846;
 }
 
 article > p {
@@ -25,6 +23,11 @@ h1, footer, #intro {
   text-align: center;
 }
 
-.prep {
+.prep, .links {
   list-style-type: none;
+  font-weight: bold;
+}
+
+.big {
+  font-size: 28px;
 }
