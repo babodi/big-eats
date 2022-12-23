@@ -9,17 +9,19 @@ h1 {
   font-size: 40px;
 }
 
-strong {
-  font-size: 22px;
-  color: white;
+strong, h1 {
   background-color: #3D3846;
 }
 
 article > p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
-h1, footer, #intro {
+h1, 
+footer, 
+#intro,
+article > p,
+.prep {
   text-align: center;
 }
 
